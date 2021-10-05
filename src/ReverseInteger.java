@@ -16,10 +16,10 @@ public class ReverseInteger {
         }
         long reversed = 0;
         while(x != 0){
-            int reminder = x % 10; // this gives us the last number e.g: if 123, with this we get 3
+            int reminder = x % 10; // this gives us the last digit e.g: if 123, with this we get 3
             reversed = reversed * 10 + reminder; // multiply the variable reverse by 10 and add the reminder into it, e.g.: if we have 123,
             //after the first step we have 3, with this last one, we'll have 32
-            x = x / 10; //divide by 10 to get the rest of the number that has to be reversed
+            x = x / 10; //divide by 10 to get the rest of digits that have to be reversed
         }
         if(reversed > Integer.MAX_VALUE || reversed < Integer.MIN_VALUE) {
             return 0;

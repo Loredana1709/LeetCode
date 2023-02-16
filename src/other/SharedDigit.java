@@ -1,3 +1,5 @@
+package other;
+
 /**
  * Write a method named hasSharedDigit with 2 parameters of type int.
  * Each number should be within the range of 10 (inclusive) - 99 (inclusive).

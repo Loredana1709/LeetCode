@@ -1,3 +1,5 @@
+package other;
+
 /**
  * What is the perfect number?
  * A perfect number is a positive integer which is equal to the sum of its proper positive divisors.

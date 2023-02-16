@@ -1,3 +1,5 @@
+package other;
+
 /**
  * Write a method named getEvenDigitSum with one parameter of type int called number
  * The method should return the sum of the even digits within the number

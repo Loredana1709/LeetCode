@@ -1,3 +1,5 @@
+package other;
+
 /**
  * Write a method called isOdd with an int parameter and call it number. The method needs to return boolean.
  * Check that number is > 0, if it is not return false.

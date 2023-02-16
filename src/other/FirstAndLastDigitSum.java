@@ -1,3 +1,5 @@
+package other;
+
 /**
  * Write a method named sumFirstAndLastDigit with one parameter of type int called number.
  * The method needs to find the first and the last digit of the parameter number passed to the method,
